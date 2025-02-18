@@ -1,0 +1,76 @@
+.poem-16-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Poem Line */
+.poem-16-line {
+  padding: 15px;
+  text-transform: capitalize;
+  font-size: 1.2em;
+  position: relative;
+  animation: fadeIn 1s ease-in-out;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.poem-16-line li {
+  opacity: 0;
+  animation: fadeInText 1s ease-in-out forwards;
+}
+
+/* Animate the poem */
+@keyframes fadeIn {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
+@keyframes fadeInText {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
+.poem-16-line li:nth-child(1) {
+  animation-delay: 0.3s;
+}
+
+.poem-16-line li:nth-child(2) {
+  animation-delay: 0.6s;
+}
+
+.poem-16-line li:nth-child(3) {
+  animation-delay: 0.9s;
+}
+
+.poem-16-line li:hover {
+  color: #000;
+  font-weight: bold;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.poem-16-line li:nth-child(even):hover {
+  color: #444;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 600px) {
+  .poem-16-line {
+      font-size: 1em;
+  }
+
+  .poem-16-container {
+      width: 95%;
+  }
+}

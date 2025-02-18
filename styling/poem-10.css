@@ -1,0 +1,32 @@
+.poem-10-container {
+  width: 100%;
+  font-family: monospace;
+}
+
+.poem-10 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 30px;
+  line-height: 1.6;
+}
+
+.poem-10-line {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  font-size: 18px;
+}
+
+.poem-10-line span {
+  font-size: 28px;
+  transition: all 0.3s ease;
+}
+
+.poem-10-line span:nth-child(odd) {
+  font-weight: bold;
+}
+
+.poem-10-line span:nth-child(even) {
+  font-style: italic;
+}
+

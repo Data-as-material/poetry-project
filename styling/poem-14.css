@@ -1,0 +1,15 @@
+
+.poem-14-container {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.poem-14-line:nth-of-type(2n) {
+  float: right;
+  font-size: 30px;
+  position: relative;
+  top: 10px;
+  left: 150px;
+}

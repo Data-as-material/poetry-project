@@ -1,0 +1,41 @@
+
+.poem-17-container {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding: 20px;
+}
+
+.poem-17-line {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border: 2px solid black;
+  margin: 10px;
+  padding: 10px;
+  position: relative;
+}
+
+.poem-17-line span {
+  display: inline-block;
+  margin-right: 5px;
+  padding: 3px;
+}
+
+.poem-17-line:nth-child(even) {
+  border: .1px solid black;
+  border-radius: 20px;
+}
+
+.poem-17-line span:nth-child(odd) {
+  border: 2px solid black;
+  padding: 3px;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+.poem-17-line span:nth-child(even) {
+  border: 1px solid rgb(0, 0, 0);
+  padding: 3px;
+}
+

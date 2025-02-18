@@ -1,0 +1,22 @@
+.poem-15-container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-left: 16px;
+  font-weight: bolder;
+}
+
+.poem-15-line {
+  display: flex;
+  gap: 20px;
+}
+
+.stranger{ 
+  background-color: black;
+}
+
+.water{
+  color: blue;
+  background-color: blue;
+}

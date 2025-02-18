@@ -1,4 +1,23 @@
-@import url('/poetry-project/styling/poem-01.css');
+@import url('/styling/poem-01.css');
+@import url('/styling/poem-02.css');
+@import url('/styling/poem-03.css');
+@import url('/styling/poem-04.css');
+@import url('/styling/poem-05.css');
+@import url('/styling/poem-06.css');
+@import url('/styling/poem-07.css');
+@import url('/styling/poem-08.css');
+@import url('/styling/poem-09.css');
+@import url('/styling/poem-10.css');
+@import url('/styling/poem-11.css');
+@import url('/styling/poem-12.css');
+@import url('/styling/poem-13.css');
+@import url('/styling/poem-14.css');
+@import url('/styling/poem-15.css');
+@import url('/styling/poem-16.css');
+@import url('/styling/poem-17.css');
+@import url('/styling/poem-18.css');
+@import url('/styling/poem-19.css');
+@import url('/styling/poem-20.css');
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Funnel+Display:wght@300..800&display=swap');
 
 body {
@@ -26,7 +45,7 @@ h1, h2,h3,h4,h5,h6{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 300px;
+    width: 200px;
 }
 
 .sidebar a {
@@ -38,7 +57,6 @@ h1, h2,h3,h4,h5,h6{
 }
 
 .container {
-    
     width: 100%;
     position: relative;
     display: flex;
@@ -50,6 +68,7 @@ h1, h2,h3,h4,h5,h6{
     position: relative;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     padding:16px;
     height: 100%;   
 }
@@ -79,3 +98,11 @@ h1, h2,h3,h4,h5,h6{
     width: 100%;
     padding: 16px 16PX;
 }
+
+.line-1{
+    font-size: 25px;
+}
+.current-page-link {
+    font-weight: bold;
+    text-decoration: underline;
+  }

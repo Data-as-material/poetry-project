@@ -1,0 +1,13 @@
+.far{
+  margin: 300px;
+  font-size: 30px;
+}
+
+.faraway{
+  margin: 300px;
+  font-size: 50px;
+}
+
+.back{
+  margin: -300px;
+}

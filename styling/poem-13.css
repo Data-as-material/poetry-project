@@ -1,0 +1,16 @@
+.poem-13-line {
+  display: block;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+  letter-spacing: 15px;
+  text-align: center;
+}
+
+.poem-13-line span:nth-child(6n) {
+  font-weight: bold;
+}
+
+.poem-13-line span:nth-child(3n) {
+  font-size: 30px;
+  display: inline-block;
+}

@@ -1,0 +1,30 @@
+.poem-20-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 16px;
+  font-family:fantasy ;
+  font-size: 30px;
+}
+  
+.poem-20-line {
+  display: flex;
+  gap: 25px;
+}
+  
+
+.poem-20-line span:nth-child(2n) {
+  opacity: .2;
+}
+
+.poem-20-line span:nth-child(7n) {
+  opacity: .7;
+  text-decoration:line-through;
+}
+
+.poem-20-line span:nth-child(6n) {
+  text-decoration:overline;
+}
+
+.poem-20-line span:nth-child(3n) {
+  text-decoration:underline;
+}

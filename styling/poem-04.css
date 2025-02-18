@@ -1,0 +1,27 @@
+.poem-4-lines {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 16px;
+}
+
+.poem-4-lines div {
+  font-size: 40px;
+  display: flex;
+  gap: 90px;
+}
+
+.poem-4-lines div span {
+  display: inline-block;
+}
+
+/* Assign different scales to words for a playful effect */
+.poem-4-lines div span:nth-child(1) { transform: scale(1.2); }
+.poem-4-lines div span:nth-child(2) { transform: scale(1.4); }
+.poem-4-lines div span:nth-child(3) { transform: scale(0.8); }
+.poem-4-lines div span:nth-child(4) { transform: scale(1.1); }
+.poem-4-lines div span:nth-child(5) { transform: scale(1.6); }
+.poem-4-lines div span:nth-child(6) { transform: scale(0.9); }
+.poem-4-lines div span:nth-child(7) { transform: scale(1.3); }
+.poem-4-lines div span:nth-child(8) { transform: scale(1); }
+.poem-4-lines div span:nth-child(9) { transform: scale(1.5); }

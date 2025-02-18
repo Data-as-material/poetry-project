@@ -1,0 +1,25 @@
+.container-19{
+  display: flex;
+  justify-self: center;
+
+}
+.poem-19-container {
+    border-bottom: 9px dotted #000000;
+    border-right: 9px dotted #000000;
+    display: flex;
+    justify-content: space-between;
+}
+
+.poem-19-line {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.poem-19-line span {
+    padding: 1px;
+}
+
+.poem-19-line:last-child {
+    position: relative;
+    border: 0;
+}

@@ -1,0 +1,22 @@
+.poem-5-lines {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-left: 25px;
+}
+
+.poem-5-line {
+  display: flex;
+  gap: 90px;
+}
+
+/* Scale each word inside a line */
+.poem-5-line span:nth-child(1) { transform: scale(1); }
+.poem-5-line span:nth-child(2) { transform: scale(1.1); }
+.poem-5-line span:nth-child(3) { transform: scale(1.2); }
+.poem-5-line span:nth-child(4) { transform: scale(1.3); }
+.poem-5-line span:nth-child(5) { transform: scale(1.4); }
+.poem-5-line span:nth-child(6) { transform: scale(1.5); }
+.poem-5-line span:nth-child(7) { transform: scale(1.6); }
+.poem-5-line span:nth-child(8) { transform: scale(1.7); }
+.poem-5-line span:nth-child(9) { transform: scale(1.8); }

@@ -1,0 +1,30 @@
+:root{
+    --font-size: 16px
+}
+
+
+.poem-3-lines {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 5px;
+  }
+  
+  .poem-3-lines div {
+    font-size:50px;
+    transform: scale(calc(1 + 0.04 * var(--i)));
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .poem-3-line-2 { --i: -3.5; }
+  .poem-3-line-3 { --i: -4; }
+  .poem-3-line-4 { --i: -5; }
+  .poem-3-line-5 { --i: -6; }
+  .poem-3-line-6 { --i: -7; }
+  .poem-3-line-7 { --i: -8; }
+  .poem-3-line-8 { --i: -9; }
+  .poem-3-line-08-01 { --i: -10; }
+  .poem-3-line-9 { --i: -11; }
+  .poem-3-line-10 { --i: -12; }
+
+  

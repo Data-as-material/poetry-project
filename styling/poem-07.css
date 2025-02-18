@@ -1,0 +1,22 @@
+.poem-7-container {
+  width: 90%;
+  max-width: 1000px;
+}
+
+.poem-7 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 110px;
+}
+
+.poem-7-line {
+  margin: 25px;
+  position: relative;
+  font-size: 1.4rem;
+  display: inline-block;
+}
+
+.poem-7-line span {
+  position: relative;
+}
+
